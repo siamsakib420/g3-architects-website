@@ -126,7 +126,8 @@ main {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 }
-.feature-img img{
+
+.feature-img img {
     height: 90%;
     margin-left: 80px;
 }
@@ -141,11 +142,13 @@ main {
     position: relative;
     bottom: 100px;
 }
-.ten-year h3{
+
+.ten-year h3 {
     font-size: 4rem;
     margin: 0;
 }
-.ten-year p{
+
+.ten-year p {
     font-size: 1.5rem;
 }
 
@@ -192,6 +195,16 @@ main {
     width: 165px;
 }
 
+.footer {
+    border-radius: 8px;
+    background: #FFF4E7;
+    width: 1440px;
+    height: 100px;
+    color: #424242;
+    text-align: center;
+    padding-top: 40px;
+    margin: 0px auto;
+}
 
 
 
@@ -204,20 +217,24 @@ main {
     }
 
     nav,
-    .teams-container,.features,
+    .teams-container,
+    .features,
     .sponsors-img-container {
         flex-direction: column;
     }
-    .feature-img img{
+
+    .feature-img img {
         width: 90%;
         margin-left: 0;
     }
-    .ten-year{
+
+    .ten-year {
         position: static;
         width: 260px;
         height: 100px;
     }
-    .facts{
+
+    .facts {
         margin-top: 150px;
     }
 
@@ -235,6 +252,9 @@ main {
         gap: 20px;
         margin-top: 100px;
     }
+    .footer{
+        width: 100%;
+    }
 }
 
 /* tab or medium devices */
@@ -244,9 +264,13 @@ main {
     }
 
     nav,
-    .teams-container,.features,
+    .teams-container,
+    .features,
     .sponsors-img-container {
         flex-direction: column;
+    }
+    .footer{
+        width: 100%;
     }
 
 }
