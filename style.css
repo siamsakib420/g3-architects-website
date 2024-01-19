@@ -131,6 +131,22 @@ main {
     font-weight: 600;
     margin-top: 5px;
 }
+.sponsors{
+    text-align: center;
+}
+.sponsors-img-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    align-items: center;
+    gap: 40px;
+}
+.sponsors-img-container img{
+    width: 165px;
+}
+
+
+
 
 /* responsive media quary */
 
@@ -141,7 +157,7 @@ main {
     }
 
     nav,
-    .teams-container {
+    .teams-container,.sponsors-img-container {
         flex-direction: column;
     }
 
@@ -149,9 +165,13 @@ main {
         grid-template-columns: 1fr;
     }
 
-    .teams-content {
+    .teams-content .facts-card-container{
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .facts-card-container{
+        flex-direction: column;
+        gap: 20px;
     }
 }
 
@@ -162,7 +182,7 @@ main {
     }
 
     nav,
-    .teams-container {
+    .teams-container , .sponsors-img-container {
         flex-direction: column;
     }
 
